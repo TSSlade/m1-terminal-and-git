@@ -61,7 +61,7 @@ Here is a short-list of commands you'll use to navigate your file structure and 
 | `clear`  | clears terminal  |
 | `history`  | shows history of commands |
 | <code>history &#124; grep SEARCH</code>  | shows history that matches the SEARCH term|
-| `ls`  | list contents of diretory  |
+| `ls`  | list contents of directory  |
 | `ls -a`  | list all contents  |
 | `mkdir DIRNAME` | make a directory with name DIRNAME|
 | `pwd` | print working directory |
@@ -88,7 +88,7 @@ The files in your current directory will then be accessible in your web browser 
 If you're on windows, you may prefer to install a GUI tool like [WAMP](http://www.wampserver.com/en/).
 
 ## Version control
-This is a brief review of basic version control operations using `git` and `GitHub`.  When programmatically building interactive data visualizations, it's imperative that you're able to track changes to your code, share your code, and collaboratively code with other developers.  We'll cover collaboration in a later module, but if you don't feel comfortable using the basics of these systems, **make sure to practice now**.
+This is a brief review of basic version control operations using `git` and `GitHub`.  When programmatically building interactive data visualizations, it's imperative that you be able to track changes to your code, share your code, and collaboratively code with other developers.  We'll cover collaboration in a later module, but if you don't feel comfortable using the basics of these systems, **make sure to practice now**.
 
 ### Git
 `Git` is a free and open-source version control software that provides you with a set of command line tools for tracking changes to your files.  All of the files in a project directory (referred to as a `repository`, or `repo`) are tracked by a hidden `.git` file in the root of the project.  You can initiate a repository with the `git init` command.  
@@ -108,7 +108,7 @@ Here is additional information on each (of these) `git` commands (note, this **_
 
 
 ### GitHub
-The `git` process described thus far all happens on your local machine.  In order to share our code and collaborate with other, we'll need a publicly accessible location where we can store our files -- that's what GitHub is for.  
+The `git` process described thus far all happens on your local machine.  In order to share our code and collaborate with others, we'll need a publicly accessible location where we can store our files -- that's what GitHub is for.  
 
 GitHub is the most popular open-source web-based repository hosting service.  In addition to providing a great UI on top of a server that hosts your repositories, GitHub has a number of additional features such as issue tracking, wiki pages, and notifications that make it a great collaboration tool.  
 
